@@ -1,0 +1,252 @@
+{
+    "vehicles": [
+        {
+            "id":1,
+            "CategoryId":1,
+            "categories": "Scooter",
+            "name": "Vespa Scooter",
+            "brand": "Vespa",
+            "imgUrl": "/images/vespa-Scooter-blue.png ",
+            "seats": "1 seat",
+            "Year": "1 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$109 per Day",
+            "minDayRental":1,
+            "maxDayRental":5,
+            "litrePer100km":3.7,
+            "maxPeople": 1 
+        },
+        {
+            "id":2,
+            "CategoryId":1,
+            "categories": "Scooter",
+            "name": "Vespa Scooter",
+            "brand": "Vespa",
+            "imgUrl": "/images/vespa-Scooter-mint.png ",
+            "seats": "1 seat",
+            "Year": "1 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$109 per Day",
+            "minDayRental":1,
+            "maxDayRental":5,
+            "litrePer100km":3.7,
+            "maxPeople": 1 
+        },
+        {
+            "id":3,
+            "CategoryId":1,
+            "categories": "Scooter",
+            "name": "Vespa Scooter",
+            "brand": "Vespa",
+            "imgUrl": "/images/vespa-Scooter-red.png ",
+            "seats": "1 seat",
+            "Year": "1 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$109 per Day",
+            "minDayRental":1,
+            "maxDayRental":5,
+            "litrePer100km":3.7,
+            "maxPeople": 1 
+        },
+        {
+            "id":1,
+            "CategoryId":2,
+            "categories": "Small Car",
+            "name": "Smart ForTwo",
+            "brand": "Smart Fortwo",
+            "imgUrl": "/images/smart-fortwo-red.png ",
+            "seats": "1-2 seats",
+            "Year": "1 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$129 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":8.5,
+            "maxPeople": 2
+        },
+        {
+            "id":4,
+            "CategoryId":2,
+            "categories": "Small Car",
+            "name": "Smart FortTwo",
+            "brand": "Smart Fortwo",
+            "imgUrl": "/images/smart-fortwo-white.png ",
+            "seats": "1-2 seats",
+            "Year": "1 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$129 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":8.5,
+            "maxPeople": 2
+        },
+        {
+            "id":5,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Audi A7",
+            "brand": "Audi",
+            "imgUrl": "/images/audi-a7.png ",
+            "seats": "5 seats",
+            "Year": "3 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":3,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+            
+        },
+        {
+            "id":6,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Audi Rs",
+            "brand": "Audi",
+            "imgUrl": "/images/audi-rs.png ",
+            "seats": "5 seats",
+            "Year": "3 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+        },
+        {
+            "id":7,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Benz C-Class",
+            "brand": "Benz",
+            "imgUrl": "/images/benz-c-class.png ",
+            "seats": "5 seats",
+            "Year": "2 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+        },
+        {
+            "id":8,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Benz SUV",
+            "brand": "Benz",
+            "imgUrl": "/images/benz-suv.png ",
+            "seats": "5 seats",
+            "Year": "4 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+        },
+        {
+            "id":9,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Honda Civic",
+            "brand": "Honda",
+            "imgUrl": "/images/honda-civic.png ",
+            "seats": "5 seats",
+            "Year": "2 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+        },
+        {
+            "id":10,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Honda CRV",
+            "brand": "Honda",
+            "imgUrl": "/images/honda-crv.png ",
+            "seats": "5 seats",
+            "Year": "4 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+        },
+        {
+            "id":11,
+            "CategoryId":3,
+            "categories": "Large Car",
+            "name": "Honda CRV",
+            "brand": "Honda",
+            "imgUrl": "/images/honda-crv.png ",
+            "seats": "5 seats",
+            "Year": "4 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$144 per Day",
+            "minDayRental":1,
+            "maxDayRental":10,
+            "litrePer100km":9.7,
+            "maxPeople": 5
+        },
+        {
+            "id":12,
+            "CategoryId":4,
+            "categories": "Camper Van",
+            "name": "MM2 Van",
+            "brand": "MM Vans",
+            "imgUrl": "/images/van-1.png ",
+            "seats": "6 seats",
+            "Year": "4 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$200 per Day",
+            "minDayRental":1,
+            "maxDayRental":15,
+            "litrePer100km":17,
+            "maxPeople": 6
+        },
+        {
+            "id":13,
+            "CategoryId":4,
+            "categories": "Camper Van",
+            "name": "MM3 Van",
+            "brand": "MM Vans",
+            "imgUrl": "/images/van-2.png ",
+            "seats": "6 seats",
+            "Year": "4 year(s) old",
+            "oilType": "Petrol",
+            "Price": "$200 per Day",
+            "minDayRental":1,
+            "maxDayRental":15,
+            "litrePer100km":17,
+            "maxPeople": 6
+        }
+    ],
+    "categories": [
+        { 
+            
+            "CategoryId": 1,
+            "name": "Scooter"
+
+        },
+        { 
+            
+            "CategoryId": 2,
+            "name": "Small Car"
+        },
+        { 
+            
+            "CategoryId": 3,
+            "name": "Large Car"
+        },
+        { 
+            
+            "CategoryId": 4,
+            "name": "Large Car"
+        }
+    ]
+}

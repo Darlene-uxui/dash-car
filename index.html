@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="main.js" defer></script>
+
+<!---Leaflet Cdn-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+    <script src="https://npmcdn.com/leaflet-geometryutil"></script>
+
+<!---DatePicker ddn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <title>Dashcar Rental</title>
+</head>
+<body>
+<!-----Nav bar-->    
+    <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="index.html" class="logo"><img src="images/Dashcar-logo.png" alt=""> </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#fuel-calculator">Fuel Calculator</a>
+        <a href="#about-Us">About Us</a>
+        <a href="#reviews">reviews</a>
+    </nav>
+
+    <div id="login-btn">
+            <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+    </header> 
+<!----header Cover Page-->    
+    <section class="home" id="home">
+        <h3 class="home-headline">This Journey is Ours</h3>
+        <a href="#" class="btn home-headline">explore cars</a>
+    </section>
+    <br><br>
+<!-----Customer Riews-->
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>5+</h3>
+                <p>Brunches </p>
+            </div>
+        </div>
+    
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>1000+</h3>
+                <p>Rented Cars</p>
+            </div>
+        </div>
+    
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>800+</h3>
+                <p>happy clients with reivews</p>
+            </div>
+        </div>
+    
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>1500+</h3>
+                <p>news cars</p>
+            </div>
+        </div>
+    
+        </section>
+<!---Instant Booking-->    
+    <h1 class="heading"> Book your <span>vehicle</span> </h1>
+    <div class= "reservation-form">
+        <div class="reservation-input">
+            <label for="numberOfPeople">Number of People</label>
+            <input type="number" id="numberOfPeople" name="total_numberOfPeople" placeholder="Insert Number of people" min="1" max ="6" required>
+        </div>
+        <div class="reservation-btn">
+            <button class="btn" id="search-button-numberOfPeople" onclick="filterVehicles">Search my Car</button>
+        </div> <br> <br>
+        </div>
+
+<!----vehicles menu-->         
+    <h1 class="heading">Available Vehicles For you</h1>     
+    <div class="vehicles-list">
+        <main class="vehicles-menu" id="vehicles-menu">
+        </main>
+    </div>
+<!---Display Chosen Vehicle-->
+    <h1 class="heading">Your Chosen Vehicle</h1>
+    <div class="vehicle-chosen-final">
+        <div class="vehicle-chosen-final-item"> 
+            <p class="alert">Your Chosen vehicle will be displayed here</p>
+        </div>
+    </div>
+<!-----DatePicker-->
+    <h1 class="heading">How long is your Trip?</h1>
+    <div class="vehicle-datePicker-container">
+        <div class="datepicker">
+            <input type="date" name="" id="vehicle-datePicker" placeholder="Click Here to insert dates">
+            <div id="displayChosenDate"></div>
+        </div>
+    </div>
+
+<!----Map/ Fuel Calculator-->
+<h1 class="heading">Final Estimated Price for your Trip</h1>
+
+<div class="distance-fuel-map-container">
+    <div class="vehicle-map-container">
+            <h2>Click two destination to calculate approx distance for your trip</h2>
+        <div id="map"></div>
+        <div id="final-calculation">
+            <p>Distance (in pixel): <span id="distance"></span></p>
+            <p>Your estimated trip in Kilometer: <span id="length"></span></p>
+            <br>
+            <h2>Final Calculation</h2>
+            <p><b>Chosen Vehicle:</b> <span id="final-vehicle"></span></p>
+            <p><b>Rental Period:</b> <span id="final-period"></span></p>
+            <p><b>Current Fuel Price:</b>$3.2</p>
+            <p><b>Total Estimated Fuel Cost :</b> <span id="final-fuel-cost"></span></p>
+            <p><b>Total Rental Cost:</b> <span id="final-rental-cost"></span></p>
+            <p><b>Total Estimated Rental and Fuel Cost:</b> <span id="final-fuel-rental-cost"></span></p>
+        </div>
+            <button class="btn" id="final-booking-btn">Confirm Booking</button>
+    </div>
+</div>
+<!---Footer-->
+
+
+</body>
